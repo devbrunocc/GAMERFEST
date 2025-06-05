@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+:root {
+    --main-font: 'Orbitron', sans-serif;
+    --background-color: #0d0d0d;
+    --text-color:#ffffff;
+    --main-color: #00d4ff;
+    --main-deep-color:#0050ff;
+    --header-color:#111111;
+    --card-color:#1a1a1a;
+    --shadow: 0 0 0.625rem var(--main-color);
+    --hover-shadow:0 0 1.25rem var(--main-color), 0 0 2.5rem var(--main-deep-color);
+    --main-fontsize: 16px;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+}
+header {
+    background-color:  var(--header-color);
+    padding: 1rem;
+    border-bottom: solid var(--main-color);
+
+}
+body {
+    background-color: var(--background-color);
+    font-size: var(--main-fontsize);
+    font-family: var(--main-font);
+    height: 190vh;
+    margin: 0;
+    padding: 0;
+}
+.nav-links {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 0.5rem;
+}
+.nav-links:hover{
+    color: var(--main-color);
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 98%;
+    
+}
+
+.title-desc{
+    color: var(--text-color);
+
+}
+.scn-container {
+    text-align: center;
+}
+.ingresso-text {
+    color: var(--text-color);
+    padding: 1rem;
+    background: linear-gradient(to right, #00d4ff,  #0050ff);
+    border-radius: 4rem;
+    font-size: 14px;
+    transition: 0.3s;
+    box-shadow: var(--shadow);
+    transition: 0.4s;
+}
+.ingresso-text:hover {
+    box-shadow: var(--hover-shadow);
+    transform: scale(1.1);
+}
+
+.title-img {
+    color: var(--text-color);
+    font-size: 20px;
+    width: 40rem;
+
+    margin: auto;
+}
+.fotos {
+    margin-top: 9rem;
+}
+
+.event-img {
+    width: 400px;
+    height: 300px;
+    margin: 0.2rem;
+    transition: 0.4s;
+}
+.event-img:hover {
+    box-shadow: var(--hover-shadow);
+    transform: scale(1.1);
+}
+.inf-btn {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 1rem;
+    background-color: var(--card-color);
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 3rem;
+    box-shadow: var(--shadow);
+    transition: 0.4s;
+}
+.inf-btn:hover {
+    box-shadow: var(--hover-shadow);
+    transform: scale(1.7);
+}
+.sec-btn {
+    margin-top: 4rem;
+}
+.title-ingressos {
+    color: var(--text-color);
+}
+.ingressos-container {
+    text-align: center;
+    margin-top: 7rem;
+}
+.boxes {
+    display: flex;
+    color: var(--text-color);
+    justify-content: space-between;
+    width: 35%;
+    margin: auto;
+}
+.box1 {
+    margin: auto;
+    height: 9rem;
+    width: 15rem;
+    background-color: var(--card-color);
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+
+}
+.box2 {
+    margin: auto;
+    height: 9rem;
+    width: 15rem;
+    background-color: var(--card-color);
+    box-shadow: var(--shadow);
+    border-radius: 1rem;
+}
+.buy-btn {
+    text-decoration: none;
+    color: var(--text-color);
+    background: linear-gradient(to right, #00d4ff,  #0050ff);
+    padding: 0.7rem;
+    border-radius: 2rem;
+    box-shadow: var(--shadow);
+    margin-top: 2rem;
+    transition: 0.4s;
+    
+}
+.buy-btn:hover {
+    box-shadow: var(--hover-shadow);
+    transform: scale(1.1);
+}
+.text-btn {
+    margin-bottom: 1.5rem;
+}
+.title-ins {
+    color: var(--text-color);
+}
+.inscreva-se {
+    text-align: center;
+}
+.inf {
+    display: grid;
+    margin: auto;
+
+}
+.input-text {
+     width: 20rem;
+     margin: auto;
+     padding: 0.4rem;
+    margin-bottom: 0.7rem;
+    border-radius: 0.5rem;
+}
+.input-submit {
+    width: 20rem;
+    margin: auto;
+    padding: 0.4rem;
+    margin-bottom: 0.7rem;
+    border-radius: 1rem;
+    background: linear-gradient(to right, #00d4ff,  #0050ff);
+    color: var(--text-color);
+    box-shadow: var(--shadow);
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.input-submit:hover{
+    box-shadow: var(--hover-shadow);
+    transform: scale(1.1);
+    
+}
+footer {
+    border-top:solid var(--main-color) ;
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.footer-text {
+    color: var(--text-color);
+}
+
+
+
+
